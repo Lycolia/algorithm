@@ -72,7 +72,7 @@ const sortBubble = (arr) => {
  */
 const bubble = () => {
   console.log('== bubble sort ==');
-  console.log('result', sortBubble(src));
+  console.log('result', sortBubble([...src]));
 };
 
 /**
@@ -143,7 +143,7 @@ const sortSelected = (arr) => {
 
 const selected = () => {
   console.log('== selected sort ==');
-  console.log('result', sortSelected(src));
+  console.log('result', sortSelected([...src]));
 };
 
 /**
@@ -195,7 +195,7 @@ const insertSort = (arr) => {
 
 const insert = () => {
   console.log('== insert sort ==');
-  console.log('result', insertSort(src));
+  console.log('result', insertSort([...src]));
 };
 
 bubble();
