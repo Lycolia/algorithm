@@ -1,3 +1,5 @@
+const src = [3, 4, 1, 2];
+
 /**
  * [3, 4, 1, 2]
  * loop0->loop0: [3, 4, 1, 2]
@@ -70,7 +72,6 @@ const sortBubble = (arr) => {
  */
 const bubble = () => {
   console.log('== bubble sort ==');
-  const src = [3, 4, 1, 2];
   console.log('result', sortBubble(src));
 };
 
@@ -142,7 +143,6 @@ const sortSelected = (arr) => {
 
 const selected = () => {
   console.log('== selected sort ==');
-  const src = [3, 4, 1, 2];
   console.log('result', sortSelected(src));
 };
 
@@ -195,7 +195,6 @@ const insertSort = (arr) => {
 
 const insert = () => {
   console.log('== insert sort ==');
-  const src = [3, 4, 1, 2];
   console.log('result', insertSort(src));
 };
 
